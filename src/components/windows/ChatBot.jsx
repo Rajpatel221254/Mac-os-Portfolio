@@ -11,7 +11,6 @@ export default function ChatBot() {
   const messagesEndRef = useRef(null);
 
   const handleSend = async () => {
-    console.log("handleSend triggered");
     if (!input.trim()) return;
 
     const userMessage = { sender: "user", text: input };
@@ -23,7 +22,6 @@ export default function ChatBot() {
     setMessages((prev) => [...prev, { sender: "bot", text: "Typing..." }]);
 
     try {
-      console.log("Sending request to backend...");
       const response = await fetch(`${import.meta.env.VITE_API_URL}/chat`, {
         method: "POST",
         headers: {
@@ -34,7 +32,6 @@ export default function ChatBot() {
 
       const data = await response.json();
 
-      console.log("Response received:", data);
 
       setMessages((prev) => [
         ...prev.slice(0, -1),
