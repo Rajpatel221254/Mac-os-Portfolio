@@ -1,0 +1,165 @@
+/**
+ * @file: profile.config.ts
+ * @author: Patel Raj Rohitbhai
+ * @summary: Full-Stack MERN Developer Trainee (Fresher) with strong project-based experience.
+ */
+
+// --------------------------------------------------
+// 1. CORE SKILLS & TECH STACK
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "HTML5",        // 90%
+    "CSS3",         // 90%
+    "JavaScript",   // 85%
+    "React.js",     // 85%
+    "TailwindCSS",  // 80%
+    "Redux Toolkit"// 75%
+  ],
+  backend: [
+    "Node.js",      // 80%
+    "Express.js",   // 80%
+    "MongoDB",      // 75%
+    "Authentication (JWT, Cookies, bcrypt)" // 75%
+  ],
+  tools: [
+    "Git & GitHub",
+    "Postman",
+    "Netlify",
+    "Render",
+    "Vercel",
+    "Figma"
+  ]
+};
+
+// --------------------------------------------------
+// 2. PROFESSIONAL EXPERIENCE
+// --------------------------------------------------
+
+class ProfessionalHistory {
+
+  /**
+   * FRONTEND DEVELOPER INTERN
+   * @company Prodigy Infotech
+   * @period 1 Month Internship
+   */
+  public Prodigy_Infotech(): InternshipImpact {
+    const role = "Frontend Developer Intern";
+    const responsibilities = [
+      "Built responsive UI components using HTML, CSS, JavaScript, and React",
+      "Worked on real-world frontend tasks following project guidelines",
+      "Improved UI consistency and user experience",
+      "Used GitHub for version control and collaboration"
+    ];
+
+    return { role, responsibilities };
+  }
+
+  /**
+   * FULL-STACK MERN DEVELOPER TRAINEE
+   * @type Project-Based Experience
+   */
+  public FullStack_Trainee(): void {
+    this.focus = "Building full-stack web applications using MERN stack";
+    this.skillsApplied = [
+      "Frontend–Backend Integration",
+      "REST API Consumption",
+      "State Management",
+      "Deployment & Hosting"
+    ];
+  }
+}
+
+// --------------------------------------------------
+// 3. PROJECTS (REAL-WORLD APPLICATIONS)
+// --------------------------------------------------
+
+interface Project {
+  name: string;
+  description: string;
+  techStack: string[];
+  links: {
+    live?: string;
+    github: string;
+  };
+}
+
+const projects: Project[] = [
+  {
+    name: "Media Search App",
+    description:
+      "A media search application where users can search photos, videos, and GIFs using APIs and save favorites to local storage.",
+    techStack: ["React.js", "Redux Toolkit", "API Integration", "Local Storage"],
+    links: {
+      live: "https://media-search-app-bymbrc.netlify.app/",
+      github: "https://github.com/Rajpatel221254/media-search-app"
+    }
+  },
+  {
+    name: "TaskNest – All-in-One Productivity Tool",
+    description:
+      "A productivity-focused web application to manage daily tasks and stay organized with a clean and intuitive UI.",
+    techStack: ["React.js", "JavaScript", "CSS", "State Management"],
+    links: {
+      live: "https://tasknest-mbrc.netlify.app/",
+      github: "https://github.com/Rajpatel221254/TaskNest-All-in-One-Productivity-Tool"
+    }
+  }
+];
+
+// --------------------------------------------------
+// 4. ACHIEVEMENTS
+// --------------------------------------------------
+
+const achievements = [
+  {
+    title: "Frontend Battle 2.0",
+    result: "Finalist – Secured 5th Rank",
+    participants: "300+ students"
+  }
+];
+
+// --------------------------------------------------
+// 5. EDUCATION
+// --------------------------------------------------
+
+const education = {
+  institute: "SAL Engineering and Technical Institute",
+  degree: "B.E. Computer Engineering",
+  duration: "2023 – 2027",
+  cgpa: "7.5"
+};
+
+// --------------------------------------------------
+// 6. CAREER OBJECTIVE
+// --------------------------------------------------
+
+const careerObjective =
+  "Aspiring Full-Stack MERN Developer seeking opportunities to apply my skills in building scalable, user-focused web applications while continuously learning modern technologies.";
+
+// --------------------------------------------------
+// 7. AVAILABILITY & LOCATION
+// --------------------------------------------------
+
+export const availability = {
+  status: "Open to Opportunities",
+  role: "Full-Stack Developer (Fresher)",
+  location: "Ahmedabad / Remote"
+};
+
+export default new ProfessionalHistory();
+
+
+/* --------------------------------------------------
+ TERMINAL OUTPUT
+--------------------------------------------------- */
+
+$ user --status
+> Name: Patel Raj Rohitbhai
+> Role: Full-Stack MERN Developer Trainee
+> Experience: Fresher (Project-Based + Internship)
+> Location: Ahmedabad
+> Status: Open to Opportunities
+> Assets Loaded... [██████████] 100%
+> Ready.

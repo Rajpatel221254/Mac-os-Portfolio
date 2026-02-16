@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "../../../public/github-project-images/media-search.png",
+    "title": "Media Search App",
+    "description": "A media search application that allows users to search photos, videos, and GIFs using third-party APIs and save selected media into collections using local storage.",
+    "tags": ["React", "Redux Toolkit", "API Integration", "Local Storage", "Tailwind CSS"],
+    "repoLink": "https://github.com/Rajpatel221254/media-search-app",
+    "demoLink": "https://media-search-app-bymbrc.netlify.app/"
+  },
+  {
+    "id": 2,
+    "image": "../../../public/github-project-images/tasknest.png",
+    "title": "TaskNest – All-in-One Productivity Tool",
+    "description": "A productivity-focused web application that helps users manage tasks efficiently with a clean UI and smooth user experience.",
+    "tags": ["React", "JavaScript", "State Management", "Responsive Design"],
+    "repoLink": "https://github.com/Rajpatel221254/TaskNest-All-in-One-Productivity-Tool",
+    "demoLink": "https://tasknest-mbrc.netlify.app/"
+  },
+  {
+    "id": 3,
+    "image": "../../../public/github-project-images/mini-e-commerce.png",
+    "title": "Mini E-Commerce Application",
+    "description": "A functional mini e-commerce web application featuring product listing, cart functionality, and interactive UI components.",
+    "tags": ["React", "JavaScript", "Cart Logic", "Component Reusability", "Responsive UI"],
+    "repoLink": "https://github.com/Rajpatel221254/mini-commerce-store",
+    "demoLink": "https://v-mart-by-mbrc.netlify.app/"
+  },
+  {
+    "id": 4,
+    "image": "../../../public/github-project-images/movie-website.png",
+    "title": "Movie Streaming Platform (UI)",
+    "description": "A responsive movie streaming platform frontend with tab-based navigation and reusable UI components. Focused purely on UI and responsiveness.",
+    "tags": ["React", "UI Design", "Responsive Tabs", "Component Layout"],
+    "repoLink": "https://github.com/Rajpatel221254/Movie-streaming-platform-ui-",
+    "demoLink": "https://movie-platform-by-mbrc.netlify.app/"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000",
+    "title": "Mac-OS Inspired Portfolio",
+    "description": "A Mac-OS inspired portfolio interface showcasing creative frontend design with window-style UI and smooth interactions.",
+    "tags": ["React", "UI/UX Design", "Creative Layout", "Responsive Design"],
+    "repoLink": "https://github.com/Rajpatel221254",
+    "demoLink": null
+  }
+]
