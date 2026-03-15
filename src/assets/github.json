@@ -1,6 +1,6 @@
 [  
   {
-  "id": 2,
+  "id": 1,
   "image": "/github-project-images/moodify.png",
   "title": "Moodify - AI Mood Based Music Recommender",
   "description": "Moodify is an AI-powered music recommendation web application that detects the user's facial expression using Google MediaPipe and suggests songs based on the detected mood. Users can play, skip, and change songs dynamically while the system updates recommendations according to their current mood.",
@@ -21,7 +21,7 @@
   "demoLink": "https://moodify-by-mbrc.netlify.app/"
 },
   {
-    "id": 1,
+    "id": 2,
     "image": "/github-project-images/media-search.png",
     "title": "Media Search App",
     "description": "A media search application that allows users to search photos, videos, and GIFs using third-party APIs and save selected media into collections using local storage.",
@@ -30,7 +30,7 @@
     "demoLink": "https://media-search-app-bymbrc.netlify.app/"
   },
   {
-    "id": 2,
+    "id": 3,
     "image": "/github-project-images/tasknest.png",
     "title": "TaskNest – All-in-One Productivity Tool",
     "description": "A productivity-focused web application that helps users manage tasks efficiently with a clean UI and smooth user experience.",
@@ -39,7 +39,7 @@
     "demoLink": "https://tasknest-mbrc.netlify.app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "image": "/github-project-images/mini-e-commerce.png",
     "title": "Mini E-Commerce Application",
     "description": "A functional mini e-commerce web application featuring product listing, cart functionality, and interactive UI components.",
@@ -48,7 +48,7 @@
     "demoLink": "https://v-mart-by-mbrc.netlify.app/"
   },
   {
-    "id": 4,
+    "id": 5,
     "image": "/github-project-images/movie-website.png",
     "title": "Movie Streaming Platform (UI)",
     "description": "A responsive movie streaming platform frontend with tab-based navigation and reusable UI components. Focused purely on UI and responsiveness.",
@@ -57,7 +57,7 @@
     "demoLink": "https://movie-platform-by-mbrc.netlify.app/"
   },
   {
-    "id": 5,
+    "id": 6,
     "image": "/github-project-images/mac-os-portfolio.png",
     "title": "Mac-OS Inspired Portfolio",
     "description": "A Mac-OS inspired portfolio interface showcasing creative frontend design with window-style UI and smooth interactions.",
