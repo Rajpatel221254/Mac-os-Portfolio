@@ -49,7 +49,7 @@ Rules:
     );
 
     const data = await response.json();
-    
+
     const reply = data?.choices?.[0]?.message?.content || "No response.";
 
     res.json({ reply });
@@ -62,7 +62,6 @@ Rules:
 app.get("/test", (req, res) => {
   res.json({ status: "Backend working 🚀" });
 });
-
 
 const PORT = process.env.PORT || 5000;
 

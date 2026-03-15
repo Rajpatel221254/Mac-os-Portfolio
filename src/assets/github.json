@@ -1,4 +1,25 @@
-[
+[  
+  {
+  "id": 2,
+  "image": "/github-project-images/moodify.png",
+  "title": "Moodify - AI Mood Based Music Recommender",
+  "description": "Moodify is an AI-powered music recommendation web application that detects the user's facial expression using Google MediaPipe and suggests songs based on the detected mood. Users can play, skip, and change songs dynamically while the system updates recommendations according to their current mood.",
+  "tags": [
+    "React",
+    "Vite",
+    "SCSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MediaPipe",
+    "ImageKit",
+    "Multer",
+    "Face Detection",
+    "AI Integration"
+  ],
+  "repoLink": "https://github.com/Rajpatel221254/Moodify---Face-detection-music-finder",
+  "demoLink": "https://moodify-by-mbrc.netlify.app/"
+},
   {
     "id": 1,
     "image": "/github-project-images/media-search.png",
