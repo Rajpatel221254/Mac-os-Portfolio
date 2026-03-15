@@ -7,15 +7,10 @@
   "tags": [
     "React",
     "Vite",
-    "SCSS",
     "Node.js",
     "Express.js",
     "MongoDB",
-    "MediaPipe",
-    "ImageKit",
-    "Multer",
-    "Face Detection",
-    "AI Integration"
+    "Face Detection"
   ],
   "repoLink": "https://github.com/Rajpatel221254/Moodify---Face-detection-music-finder",
   "demoLink": "https://moodify-by-mbrc.netlify.app/"
